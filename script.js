@@ -167,5 +167,4 @@ function scrollToContact() {
 // Add event listeners to each service
 document.getElementById('seo-service').addEventListener('click', scrollToContact);
 document.getElementById('social-media-service').addEventListener('click', scrollToContact);
-document.getElementById('email-marketing-service').addEventListener('click', scrollToContact);
 document.getElementById('website-service').addEventListener('click', scrollToContact);
