@@ -417,9 +417,17 @@ footer {
   }
 
   .service {
-    max-width: 45%;
+    width: 100%;
+    max-width: 300px; /* Same as desktop size */
+    margin: 0 auto 20px; /* Center and add bottom margin */
+  }
+  
+  /* Specifically target social media service if needed */
+  #social-media-service {
+    min-height: 200px; /* Set a minimum height if content is too small */
   }
 }
+
 
 @media (max-width: 768px) {
   /* Adjust layout for smaller tablets and large phones */
